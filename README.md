@@ -4,7 +4,7 @@
 Overview
 The Phone Number Details Tracker is a Python project that allows you to retrieve information about phone numbers. You can obtain details such as the geographic location, time zone, and carrier associated with a given phone number. Please note that this project is for educational purposes only, and any use of phone tracking should adhere to legal and ethical guidelines while respecting individuals’ privacy.
 
-Installation
+# Installation:
 Before getting started, make sure you have the necessary libraries installed. Open your terminal or command prompt and run the following command:
 
 pip install phonenumbers folium colorama opencage
@@ -15,7 +15,8 @@ phonenumbers: Provides modules for working with phone numbers, including parsing
 folium: Used to generate a map displaying the approximate location of the phone number.
 colorama: Adds color to the console output.
 opencage: Used for geocoding (converting coordinates to a location) based on latitude and longitude.
-Usage
+
+# Usage:
 Process a Phone Number: The main function in our project processes the phone number passed as input. It extracts relevant information from the phone number, such as its country code and national number. Here’s how it works:
 Python
 
