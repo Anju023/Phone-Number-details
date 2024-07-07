@@ -12,13 +12,16 @@ pip install phonenumbers folium colorama opencage
 The required libraries are as follows:
 
 phonenumbers: Provides modules for working with phone numbers, including parsing, formatting, and validation.
+
 folium: Used to generate a map displaying the approximate location of the phone number.
+
 colorama: Adds color to the console output.
+
 opencage: Used for geocoding (converting coordinates to a location) based on latitude and longitude.
 
 # Usage:
 
-#1.Process a Phone Number: The main function in our project processes the phone number passed as input. It extracts relevant information from the phone number, such as its country code and national number. Here’s how it works:
+# 1.Process a Phone Number: The main function in our project processes the phone number passed as input. It extracts relevant information from the phone number, such as its country code and national number. Here’s how it works:
 
 # Python:
 import phonenumbers
