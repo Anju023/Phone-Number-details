@@ -59,4 +59,4 @@ The opencage library is used for geocoding.
 
 Remember that tracking someone’s phone without their explicit consent is illegal and unethical. Always respect privacy and follow legal guidelines.
 
-Feel free to customize this README to fit your specific project. Happy coding! 📞🐍
+ Happy coding! 📞🐍
