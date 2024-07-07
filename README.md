@@ -17,9 +17,10 @@ colorama: Adds color to the console output.
 opencage: Used for geocoding (converting coordinates to a location) based on latitude and longitude.
 
 # Usage:
-Process a Phone Number: The main function in our project processes the phone number passed as input. It extracts relevant information from the phone number, such as its country code and national number. Here’s how it works:
-Python
 
+#1.Process a Phone Number: The main function in our project processes the phone number passed as input. It extracts relevant information from the phone number, such as its country code and national number. Here’s how it works:
+
+# Python:
 import phonenumbers
 from colorama import init, Fore
 
@@ -35,17 +36,24 @@ def process_number(number):
         print(f"{Fore.RED}Invalid phone number: {number}")
 
 # Example usage:
-process_number("+1 650-253-0000")  # Replace with the desired phone number
-AI-generated code. Review and use carefully. More info on FAQ.
-Geolocation, Carrier, and Time Zone:
+process_number("+(91 650-253-0000")  # Replace with the desired phone number
+
+# 2.Geolocation, Carrier, and Time Zone:
+
 geocoder: Provides information about the geographic location of the phone number.
+
 carrier: Identifies the mobile network provider associated with the phone number.
+
 timezone: Determines the time zone in which the phone number is located.
-Map Visualization (Optional): If you want to visualize the approximate location on a map, you can use the folium library. After obtaining the latitude and longitude from the geocoder, create a map marker and display it on a Folium map.
-Acknowledgments
+
+# 3.Map Visualization (Optional): If you want to visualize the approximate location on a map, you can use the folium library. After obtaining the latitude and longitude from the geocoder, create a map marker and display it on a Folium map.
+
+# Acknowledgments:
 This project uses the phonenumbers library for phone number processing.
 The opencage library is used for geocoding.
-Legal Disclaimer
+
+# Legal Disclaimer:
+
 Remember that tracking someone’s phone without their explicit consent is illegal and unethical. Always respect privacy and follow legal guidelines.
 
 Feel free to customize this README to fit your specific project. Happy coding! 📞🐍
